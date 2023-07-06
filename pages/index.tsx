@@ -126,7 +126,7 @@ export default function Home() {
                         className="flex cursor-pointer items-center justify-center rounded-full border-white border-opacity-10 bg-opacity-10 p-1.5 transition-all"
                       >
                         <svg
-                          className="text-primary h-6 fill-current transition-all dark:text-gray-200"
+                          className="text-primary h-6 fill-current transition-all dark:text-gray-100"
                           role="img"
                           viewBox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg"
