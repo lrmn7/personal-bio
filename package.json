@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "export": "next export"
   },
   "dependencies": {
     "@fontsource/jost": "^4.5.13",
