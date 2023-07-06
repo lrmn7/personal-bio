@@ -339,7 +339,7 @@ export default function Home() {
                                   title="My Daily Dev"
                                   className="text-ellipsis text-[16px] text-zinc-400"
                                 >
-                                  Daily Blog
+                                  Daily Dev
                                 </span>
                                 <span
                                   title="https://lrmn.is-a.dev/daily-dev/"
@@ -383,7 +383,7 @@ export default function Home() {
                                 title="My Gallery"
                                 className="text-ellipsis text-[16px] text-zinc-400"
                               >
-                                Gallery - Photography
+                                Virtual Photography
                               </span>
                               <span
                                 title="https://lrmn-vp.site/"
