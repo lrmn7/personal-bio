@@ -67,7 +67,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: nextjs-app
-          path: .next
+          path: /.out
 
   deploy:
     environment:
