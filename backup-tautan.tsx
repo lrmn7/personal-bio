@@ -254,54 +254,12 @@ export default function Home() {
                               <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"></path>
                             </svg>
                             <p className="text-sm font-medium text-indigo-100">
-                              {<a href={discordchannel}>{discordTag}</a>}
+                              { <a href={discordchannel}>{discordTag}</a> }
                               {/*{discordTag}*/}
                             </p>
                           </div>
                         </div>
                       </div>
-                      <div className="max-w-s mt-1 w-full space-y-2">
-                        <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
-                          <a
-                            href="https://lrmn.site//"
-                            target="_blank"
-                            rel="noopener noreferrer nofollow"
-                            className="w-full transition-all sm:hover:opacity-70"
-                          >
-                            <div>
-                              <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
-                                <div className="flex items-center justify-center">
-                                  <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
-                                    <span className=""> 🌊 </span>
-                                  </div>
-                                  <div className="mx-4 flex flex-col">
-                                    <span
-                                      title="About me"
-                                      className="text-ellipsis text-[16px] text-zinc-400"
-                                    >
-                                      About me
-                                    </span>
-                                  </div>
-                                </div>
-                                <span className="absolute right-2 text-zinc-600 transition-all">
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 20 20"
-                                    fill="currentColor"
-                                    aria-hidden="true"
-                                    className="h-4 w-8"
-                                  >
-                                    <path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path>
-                                  </svg>
-                                </span>
-                              </span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="mb-4 flex justify-center">
-                      <div className="flex items-center justify-center rounded-full bg-primary bg-opacity-90 text-xs font-medium text-banner"></div>
                       <div className="max-w-s mt-1 w-full space-y-2">
                         <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                           <a
@@ -342,24 +300,185 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
+                    <div className="mb-4 flex justify-center">
+                      <div className="flex items-center justify-center rounded-full bg-primary bg-opacity-90 text-xs font-medium text-banner"></div>
+                      <div className="max-w-s mt-1 w-full space-y-2">
+                        <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
+                          <a
+                            href="https://lrmn.is-a.dev/"
+                            target="_blank"
+                            rel="noopener noreferrer nofollow"
+                            className="w-full transition-all sm:hover:opacity-70"
+                          >
+                            <div>
+                              <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
+                                <div className="flex items-center justify-center">
+                                  <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
+                                    <span className=""> 🌊 </span>
+                                  </div>
+                                  <div className="mx-4 flex flex-col">
+                                    <span
+                                      title="Projects"
+                                      className="text-ellipsis text-[16px] text-zinc-400"
+                                    >
+                                      About me
+                                    </span>
+                                  </div>
+                                </div>
+                                <span className="absolute right-2 text-zinc-600 transition-all">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    aria-hidden="true"
+                                    className="h-4 w-8"
+                                  >
+                                    <path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path>
+                                  </svg>
+                                </span>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="max-w-s mt-1 w-full space-y-2">
+                      <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
+                        <a
+                          href="https://lrmn.site/links/"
+                          target="_blank"
+                          rel="noopener noreferrer nofollow"
+                          className="w-full transition-all sm:hover:opacity-70"
+                        >
+                          <div>
+                            <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
+                              <div className="flex items-center justify-center">
+                                <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
+                                  <span className=""> 🤖 </span>
+                                </div>
+                                <div className="mx-4 flex flex-col">
+                                  <span
+                                    title="Mini projects"
+                                    className="text-ellipsis text-[16px] text-zinc-400"
+                                  >
+                                    Mini projects
+                                  </span>
+                                </div>
+                              </div>
+                              <span className="absolute right-2 text-zinc-600 transition-all">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 20 20"
+                                  fill="currentColor"
+                                  aria-hidden="true"
+                                  className="h-4 w-8"
+                                >
+                                  <path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path>
+                                </svg>
+                              </span>
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="mb-4 flex justify-center">
                     <div className="flex items-center justify-center rounded-full bg-primary bg-opacity-90 text-xs font-medium text-banner"></div>
-                    <div className="mb-4 flex justify-center"></div>
+                    <div className="max-w-s mt-1 w-full space-y-2">
+                      <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
+                        <a
+                          href="https://lrmn.is-a.dev/daily-dev"
+                          target="_blank"
+                          rel="noopener noreferrer nofollow"
+                          className="w-full transition-all sm:hover:opacity-70"
+                        >
+                          <div>
+                            <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
+                              <div className="flex items-center justify-center">
+                                <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
+                                  <span className=""> 📑 </span>
+                                </div>
+                                <div className="mx-4 flex flex-col">
+                                  <span
+                                    title="My Portfolio"
+                                    className="text-ellipsis text-[16px] text-zinc-400"
+                                  >
+                                    Daily dev
+                                  </span>
+                                </div>
+                              </div>
+                              <span className="absolute right-2 text-zinc-600 transition-all">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 20 20"
+                                  fill="currentColor"
+                                  aria-hidden="true"
+                                  className="h-4 w-8"
+                                >
+                                  <path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path>
+                                </svg>
+                              </span>
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="max-w-s mt-1 w-full space-y-2">
+                    <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
+                      <a
+                        href="https://madebytragic.is-a.dev"
+                        target="_blank"
+                        rel="noopener noreferrer nofollow"
+                        className="w-full transition-all sm:hover:opacity-70"
+                      >
+                        <div>
+                          <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
+                            <div className="flex items-center justify-center">
+                              <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
+                                <span className=""> 💻 </span>
+                              </div>
+                              <div className="mx-4 flex flex-col">
+                                <span
+                                  title="My Portfolio"
+                                  className="text-ellipsis text-[16px] text-zinc-400"
+                                >
+                                  Made by Tragic
+                                </span>
+                              </div>
+                            </div>
+                            <span className="absolute right-2 text-zinc-600 transition-all">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                aria-hidden="true"
+                                className="h-4 w-8"
+                              >
+                                <path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path>
+                              </svg>
+                            </span>
+                          </span>
+                        </div>
+                      </a>
+                    </div>
                   </div>
                 </div>
-                <NowPlaying />
+                <div className="mb-4 flex justify-center">
+                  <div className="flex items-center justify-center rounded-full bg-primary bg-opacity-90 text-xs font-medium text-banner"></div>
+                  <div className="mb-4 flex justify-center">
+                    <div className="flex items-center justify-center rounded-full bg-primary bg-opacity-90 text-xs font-medium text-banner"></div>
+                    <div className="mb-4 flex justify-center">
+                      <div className="flex items-center justify-center rounded-full bg-primary bg-opacity-90 text-xs font-medium text-banner"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div className="mb-4 flex justify-center">
             <div className="flex items-center justify-center rounded-full bg-primary bg-opacity-90 text-xs font-medium text-banner">
-              <footer>
-                <div className="container mx-auto text-center">
-                Made with ♥ inBOGOR 
-                  <p className="text-gray text-s">
-                    © 2023 L RMN. All rights reserved.
-                  </p>
-                </div>
-              </footer>
+              <NowPlaying />
             </div>
           </div>
         </div>
