@@ -1,39 +1,3 @@
-<div align="center">
-  <img height="150" src="https://res.cloudinary.com/lrmn/image/upload/v1685433952/lrmn.dev/avatar_ndeolm.png"/>
-</div>
-
-###
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/romanromannya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="romanromannya" height="30" width="40" /></a>
-<a href="https://instagram.com/romanroman.nya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="romanroman.nya" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/lrmn_vp" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="lrmn_vp" height="30" width="40" /></a>
-<a href="https://discord.gg/WFfjrQxnfH" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="lrmn#6666" height="30" width="40" /></a>
-</p>
-
-###
-
-<h1 align="center">hey there 👋</h1>
-
-###
-
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=lrmn7.lrmn7&"  />
-</div>
-
-###
-
-
- <h4 align="left">💔 love has a cost, and both of us lost</p></h4>
-
-###
-
-Support me
-
-- 👉 🇮🇩 [Trakteer](https://trakteer.id/lrmn)
-- 👉 🌍 [BuyMeACoffe](https://www.buymeacoffee.com/lrmn)
-- 👉 🌍 [Ko-Fi](https://ko-fi.com/lrmn7)
 
 ## Welcome to Bio With Spotify, the ultimate links manager!
 
@@ -49,22 +13,21 @@ Support me
 - Fast, SEO Optimized, Responsive, Customizable **(Use your own Brand Colors)**
 
 
-## :sparkles: [Live Demo](https://hi.lrmn.site)
+## :sparkles: [Live Demo](https://is-a.fun)
 
-- With bio-with-spotify, you can easily store and organize all your important links in one place. The app features a sleek and modern design, with customizable styling options to make it your own. (Read - [how to use it ?](https://github.com/lrmn7/bio-with-spotify/blob/main/USING.md))
+- With bio-with-spotify, you can easily store and organize all your important links in one place. The app features a sleek and modern design, with customizable styling options to make it your own. (Read - [how to use it ?](https://github.com/lrmn7/personal-bio/blob/main/USING.md))
 
 ## Ussage
 
 ```sh
-git clone https://github.com/lrmn7/bio-with-spotify.git
+git clone https://github.com/lrmn7/personal-bio.git
 npm install
 npm run dev
 ```
 
 # Using the template
-To use this template, read and follow the steps given in the [Using Guide](https://github.com/lrmn7/bio-with-spotify/blob/main/USING.md)
+To use this template, read and follow the steps given in the [Using Guide](https://github.com/lrmn7/personal-bio/blob/main/USING.md)
 
-# Author
+### Made by TRAGIC in BOGOR
 
 - [L RMN](https://lrmn.is-a.dev)
-- [twitter](https://twitter.com/@romanromannya)
