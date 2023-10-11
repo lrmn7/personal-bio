@@ -1,15 +1,17 @@
 import type { AppProps } from "next/app";
+import { Analytics } from '@vercel/analytics/react';
+
 import "../styles/globals.css";
 
 import { NextSeo } from "next-seo";
 import Head from "next/head";
 import Script from "next/script";
 
-import "@fontsource/jost/400.css"
+import "@fontsource/jost/400.css";
 import "@fontsource/jost/500.css";
-import "@fontsource/jost/600.css"
-import "@fontsource/jost/700.css"
-import "@fontsource/sen/400.css"
+import "@fontsource/jost/600.css";
+import "@fontsource/jost/700.css";
+import "@fontsource/sen/400.css";
 import "@fontsource/sen/700.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -28,8 +30,11 @@ function MyApp({ Component, pageProps }: AppProps) {
             gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
               page_path: window.location.pathname,
             });
-                `}
+        `}
       </Script>
+
+      <Analytics />
+
       <NextSeo
         title="L RMN  | いつか、私がヒトじゃなくなっても"
         titleTemplate="L RMN"
@@ -60,9 +65,11 @@ function MyApp({ Component, pageProps }: AppProps) {
           },
         ]}
       />
+
       <Head>
         <link rel="icon" type="image/png" href="/pwa-512x512.png" />
       </Head>
+
       <Component {...pageProps} />
     </>
   );
