@@ -5,6 +5,6 @@ module.exports = {
   //   includePaths: [path.join(__dirname, "styles")],
   // },
   images: {
-    domains: ["cdn.discordapp.com", "lrmn.is-a.dev", "hi.lrmn.site"],
+    domains: ["cdn.discordapp.com"],
   },
 };
