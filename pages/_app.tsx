@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     const script = document.createElement("script");
     script.async = true;
     script.src = "https://analytics.eu.umami.is/script.js";
-    script.dataset.websiteId = "34362dc5-5c12-4fb5-8ecc-c74d423b4ebd";
+    script.dataset.websiteId = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID; // Mengambil nilai dari variabel lingkungan
     document.head.appendChild(script);
   }, []);
 

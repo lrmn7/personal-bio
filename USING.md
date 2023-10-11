@@ -71,9 +71,11 @@ This portfolio template contain a Spotify Card component [here](./pages/api/now-
 To configure this, you need to add `env` vars to thr `.env.local` file in the following format:
 
 ```txt
-SPOTIFY_CLIENT_ID=<your_client_id_here>
-SPOTIFY_CLIENT_SECRET=<your_client_secret_here>
-SPOTIFY_REFRESH_TOKEN=<your_refresh_token_here>
+SPOTIFY_CLIENT_ID=
+SPOTIFY_CLIENT_SECRET=
+SPOTIFY_REFRESH_TOKEN=
+NEXT_PUBLIC_GOOGLE_ANALYTICS=
+NEXT_PUBLIC_UMAMI_WEBSITE_ID=
 ```
 
 Read this [article](https://leerob.io/blog/spotify-api-nextjs) to get our own keys in this format.
