@@ -16,7 +16,7 @@ import "@fontsource/sen/400.css";
 import "@fontsource/sen/700.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  // Kode Umami Analytics
+  // Umami Analytics
   useEffect(() => {
     const script = document.createElement("script");
     script.async = true;
