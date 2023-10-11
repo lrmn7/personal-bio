@@ -1,4 +1,5 @@
 import type { AppProps } from "next/app";
+import { useEffect } from 'react';
 import { Analytics } from '@vercel/analytics/react';
 
 import "../styles/globals.css";
@@ -15,6 +16,15 @@ import "@fontsource/sen/400.css";
 import "@fontsource/sen/700.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  // Kode Umami Analytics
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = "https://analytics.eu.umami.is/script.js";
+    script.dataset.websiteId = "34362dc5-5c12-4fb5-8ecc-c74d423b4ebd";
+    document.head.appendChild(script);
+  }, []);
+
   return (
     <>
       <Script
@@ -61,7 +71,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           {
             property: "keywords",
             content:
-              "Frontend Developer, L RMN , L RMN  Tech, L RMN tech, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
+              "Frontend Developer, L RMN , L RMN Tech, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
           },
         ]}
       />
