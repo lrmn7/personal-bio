@@ -3,7 +3,7 @@
 
 > Note: This is a template, feel free to use it. And star it if you liked :P
 
-![image](https://res.cloudinary.com/lrmn/image/upload/v1688643462/lrmn.dev/Screenshot_2023-07-06_at_16-34-14_L_RMN_%E3%81%84%E3%81%A4%E3%81%8B_%E7%A7%81%E3%81%8C%E3%83%92%E3%83%88%E3%81%98%E3%82%83%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%82%82_wuvz9i.png)
+![image](/public/og-image.png)
 
 ## Features
 
