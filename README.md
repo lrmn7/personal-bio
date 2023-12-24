@@ -21,13 +21,26 @@
 
 ```sh
 git clone https://github.com/lrmn7/personal-bio.git
-npm install
-npm run dev
+```
+- Install the dependencies
+
+```
+npm install # for npm
+yarn install # for yarn
+pnpm install # for pnpm
+```
+
+- Start the server
+
+```
+npm run dev # for npm
+yarn dev # for yarn
+pnpm dev # for pnpm
 ```
 
 # Using the template
 To use this template, read and follow the steps given in the [Using Guide](https://github.com/lrmn7/personal-bio/blob/main/USING.md)
 
-### Made by TRAGIC in BOGOR
+## 💌 Support Server
 
-- [L RMN](https://lrmn.is-a.dev)
+[![DiscordBanner](https://invidget.switchblade.xyz/2pkvB82NaS)](https://discord.gg/2pkvB82NaS)

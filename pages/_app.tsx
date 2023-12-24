@@ -47,17 +47,17 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       <NextSeo
         title="L RMN  | いつか、私がヒトじゃなくなっても"
-        titleTemplate="L RMN"
-        defaultTitle="L RMN  | Web Developer"
-        description="Hey! I'm L RMN , A Web Developer, Blogger, Dreamer, Observer 🗿!"
+        titleTemplate="L RMN - Mostly Sleepless"
+        defaultTitle="L RMN  | Mostly Sleepless"
+        description="Hey! I'm L RMN , I love exploring everything related to technology. Aside from that, I have a great interest in the world of photography, especially virtual photography in video games!"
         openGraph={{
-          url: "https://lrmn.is-a.dev/",
+          url: "https://is-a.fun/",
           title: "L RMN | いつか、私がヒトじゃなくなっても",
           description:
-            "Hey! I'm L RMN , A Web Developer, Blogger, Dreamer, Observer 🗿!",
+            "Hey! I'm L RMN , I love exploring everything related to technology. Aside from that, I have a great interest in the world of photography, especially virtual photography in video games!",
           images: [
             {
-              url: "https://lrmn.is-a.dev/avatar.jpg",
+              url: "https://is-a.fun/og-image.png",
               alt: "L RMN  | いつか、私がヒトじゃなくなっても",
             },
           ],
@@ -71,13 +71,13 @@ function MyApp({ Component, pageProps }: AppProps) {
           {
             property: "keywords",
             content:
-              "Frontend Developer, L RMN , L RMN Tech, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
+              "Virtual Photography, Blogger, Discord Bot Developer, Web Developer, Mewwme's, Web Developer, Discord Music Bot, tech enthusiast, open source",
           },
         ]}
       />
 
       <Head>
-        <link rel="icon" type="image/png" href="/pwa-512x512.png" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
 
       <Component {...pageProps} />

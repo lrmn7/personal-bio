@@ -1,7 +1,7 @@
 # How to use this ?
 
 - Star the repository to show your support
-- Also, if you need any help, feel free connect me on Discord (L`RMN#9749)
+- Also, if you need any help, feel free connect me on [Discord](https://discord.gg/2pkvB82NaS)
 
 ### Using the Template
 
@@ -24,6 +24,7 @@ git clone <url>
 ```
 npm install # for npm
 yarn install # for yarn
+pnpm install # for pnpm
 ```
 
 - Start the server
@@ -31,6 +32,7 @@ yarn install # for yarn
 ```
 npm run dev # for npm
 yarn dev # for yarn
+pnpm dev # for pnpm
 ```
 
 ## Making changes
@@ -81,3 +83,7 @@ NEXT_PUBLIC_UMAMI_WEBSITE_ID=
 Read this [article](https://leerob.io/blog/spotify-api-nextjs) to get our own keys in this format.
 
 And you're good to go!
+
+## 💌 Support Server
+
+[![DiscordBanner](https://invidget.switchblade.xyz/2pkvB82NaS)](https://discord.gg/2pkvB82NaS)
