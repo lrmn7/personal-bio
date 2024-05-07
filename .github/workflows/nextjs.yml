@@ -55,7 +55,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
 
       - name: Install Next.js
-        run: npm install next
+        run: yarn add next
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
