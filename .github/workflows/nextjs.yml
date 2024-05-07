@@ -49,18 +49,18 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "18"
-          cache: ${{ steps.detect-package-manager.outputs.manager }}
 
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
 
       - name: Install Next.js
-        run: npm install next
+        run: ${{ steps.detect-package-manager.outputs.manager }} add next
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
         with:
           static_site_generator: next
+          publish_dir: out # Update the publish directory to match the output directory
 
       - name: Restore cache
         uses: actions/cache@v2
