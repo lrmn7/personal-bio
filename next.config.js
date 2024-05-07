@@ -56,9 +56,9 @@ module.exports = {
       },
       {
         source: '/madebytragic',
-        destination: 'https://discord.gg/2pkvB82NaS',
+        destination: 'https://discord.gg/6EXgrmtkPX',
         permanent: true,
       },
-    ]; // Menutup kurung siku penutup array redirects
-  }, // Menutup fungsi redirects
-}; // Menutup module.exports
+    ];
+  }, 
+}; 
