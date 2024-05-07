@@ -5,7 +5,13 @@ module.exports = {
     includePaths: [path.join(__dirname, "styles")],
   },
   images: {
-    domains: ["cdn.discordapp.com"],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdn.discordapp.com',
+        pathname: '*',
+      },
+    ],
   },
   async redirects() {
     return [
@@ -61,4 +67,5 @@ module.exports = {
       },
     ];
   }, 
+  trailingSlash: true // Tambahkan opsi trailingSlash di sini
 }; 

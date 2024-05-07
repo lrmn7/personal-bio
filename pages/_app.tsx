@@ -59,6 +59,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             {
               url: "https://is-a.fun/og-image.png",
               alt: "L RMN  | いつか、私がヒトじゃなくなっても",
+              fetchpriority: "high",
             },
           ],
         }}
