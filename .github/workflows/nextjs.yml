@@ -26,6 +26,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Detect package manager
         id: detect-package-manager
         run: |
@@ -43,35 +44,37 @@ jobs:
             echo "Unable to determine package manager"
             exit 1
           fi
+
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "16"
+          node-version: "18"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+
       - name: Install Next.js
         run: npm install next
+
       - name: Setup Pages
         uses: actions/configure-pages@v2
         with:
-          # Automatically inject basePath in your Next.js configuration file and disable
-          # server-side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
-          #
-          # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: next
+
       - name: Restore cache
         uses: actions/cache@v2
         with:
-          path: |
-            .next/cache
+          path: .next/cache
           key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
-          restore-keys: |
-            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
+          restore-keys: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
+
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
+
       - name: Static HTML export with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
+
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
@@ -90,6 +93,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: out
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
