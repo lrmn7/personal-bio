@@ -13,7 +13,7 @@
 - Fast, SEO Optimized, Responsive, Customizable **(Use your own Brand Colors)**
 
 
-## :sparkles: [Live Demo](https://is-a.fun)
+## :sparkles: [Live Demo](https://hi-lrmn.is-a.dev)
 
 - With bio-with-spotify, you can easily store and organize all your important links in one place. The app features a sleek and modern design, with customizable styling options to make it your own. (Read - [how to use it ?](https://github.com/lrmn7/personal-bio/blob/main/USING.md))
 

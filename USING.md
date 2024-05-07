@@ -68,7 +68,7 @@ This portfolio template contain a Spotify Card component [here](./pages/api/now-
 
 **Example:**
 
-# [Live Demo](https://is-a.fun) :sparkles: 
+# [Live Demo](https://hi-lrmn.is-a.dev) :sparkles: 
 
 To configure this, you need to add `env` vars to thr `.env.local` file in the following format:
 
