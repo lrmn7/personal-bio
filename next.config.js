@@ -22,7 +22,7 @@ module.exports = {
       },
       {
         source: '/virtualphotography',
-        destination: 'https://lrmn-vp.site/',
+        destination: 'https://vp.lrmn.fun/',
         permanent: true,
       },
       {
@@ -32,7 +32,7 @@ module.exports = {
       },
       {
         source: '/mybot',
-        destination: 'https://ohbot.is-a.fun/',
+        destination: 'https://bot.lrmn.fun/',
         permanent: true,
       },
       {
