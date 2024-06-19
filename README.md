@@ -31,6 +31,7 @@ pnpm install # for pnpm
 ```
 
 - Start the server
+
 ```
 npm run dev # for npm
 yarn dev # for yarn
