@@ -1,5 +1,5 @@
 {
-  "name": "lrmn-personal-bio",
+  "name": "personal-bio",
   "private": true,
   "scripts": {
     "dev": "next dev",
