@@ -1,5 +1,8 @@
+// api/top-tracks.js
 import type { NextApiRequest, NextApiResponse } from "next";
 import { getTopTracks } from "../../lib/spotify";
+
+export const runtime = 'edge';
 
 export default async function handler(
   req: NextApiRequest,
