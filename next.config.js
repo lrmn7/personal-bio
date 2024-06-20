@@ -32,7 +32,7 @@ module.exports = {
       },
       {
         source: '/mybot',
-        destination: 'https://bot.lrmn.fun/',
+        destination: 'https://meww.me/',
         permanent: true,
       },
       {
