@@ -26,8 +26,8 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/ohclips',
-        destination: 'https://ohclips.vercel.app/',
+        source: '/mewstify',
+        destination: 'https://mewstify.vercel.app/',
         permanent: true,
       },
       {
