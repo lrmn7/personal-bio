@@ -68,5 +68,5 @@ module.exports = {
       },
     ];
   }, 
-  trailingSlash: true // Tambahkan opsi trailingSlash di sini
+  trailingSlash: false // Tambahkan opsi trailingSlash di sini
 }; 
