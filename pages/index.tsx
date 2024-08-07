@@ -204,7 +204,7 @@ export default function Home() {
                                       Personal Website
                                     </span>
                                     <span
-                                      title="/profile"
+                                      title="Nothing"
                                       className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]"
                                     >
                                       About me.
