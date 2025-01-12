@@ -18,7 +18,7 @@ module.exports = {
     return [
       {
         source: '/profile',
-        destination: 'https://lrmn.is-a.dev/',
+        destination: 'https://lrmn.is-a.fun/',
         permanent: true,
       },
       {
@@ -33,7 +33,7 @@ module.exports = {
       },
       {
         source: '/mybot',
-        destination: 'https://meww.me/',
+        destination: 'https://mewwme.is-a.fun/',
         permanent: true,
       },
       {
