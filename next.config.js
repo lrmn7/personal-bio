@@ -27,8 +27,8 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/mewstify',
-        destination: 'https://mewstify.vercel.app/',
+        source: '/airdrop',
+        destination: 'https://lrmn-airdrop.vercel.app/',
         permanent: true,
       },
       {
