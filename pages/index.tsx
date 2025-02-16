@@ -333,7 +333,7 @@ export default function Home() {
                                       title="Nothing"
                                       className="text-ellipsis text-[16px] text-zinc-400"
                                     >
-                                      Potencial Airdrop
+                                      Potential Airdrop
                                     </span>
                                     <span
                                       title=""
