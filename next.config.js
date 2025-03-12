@@ -107,7 +107,7 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/distribute',
+        source: '/distributeai',
         destination: 'https://r.distribute.ai/lrmn',
         permanent: true,
       },
