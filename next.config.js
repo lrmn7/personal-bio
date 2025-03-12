@@ -18,7 +18,7 @@ module.exports = {
     return [
       {
         source: '/profile',
-        destination: 'https://lrmn.is-a.fun/',
+        destination: 'https://lrmn.is-a.dev/',
         permanent: true,
       },
       {
@@ -27,13 +27,13 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/airdrop',
-        destination: 'https://lrmn-airdrop.vercel.app/',
+        source: '/mewwme',
+        destination: 'https://mewwme.is-a.fun/',
         permanent: true,
       },
       {
-        source: '/mybot',
-        destination: 'https://mewwme.is-a.fun/',
+        source: '/somnia',
+        destination: 'https://quest.somnia.network/referrals/0F6091D2',
         permanent: true,
       },
       {
@@ -64,6 +64,56 @@ module.exports = {
       {
         source: '/madebytragic',
         destination: 'https://discord.gg/6EXgrmtkPX',
+        permanent: true,
+      },
+      {
+        source: '/gradientnetwork',
+        destination: 'https://app.gradient.network/signup?code=6POEWC',
+        permanent: true,
+      },
+      {
+        source: '/blessnetwork',
+        destination: 'https://bless.network/dashboard?ref=659RND',
+        permanent: true,
+      },
+      {
+        source: '/grass',
+        destination: 'https://app.getgrass.io/register/?referralCode=mx1VtaZYLloZQ_b',
+        permanent: true,
+      },
+      {
+        source: '/nodepay',
+        destination: 'https://app.nodepay.ai/register?ref=5yOkfU1ULNMBrvm',
+        permanent: true,
+      },
+      {
+        source: '/minionlab',
+        destination: 'https://app.minionlab.ai/pc/instrumentPanels',
+        permanent: true,
+      },
+      {
+        source: '/dawn',
+        destination: 'https://www.dawninternet.com/',
+        permanent: true,
+      },
+      {
+        source: '/teneoprotocol',
+        destination: 'https://dashboard.teneo.pro/auth/signup',
+        permanent: true,
+      },
+      {
+        source: '/agnthub',
+        destination: 'https://join.agnthub.ai/?ref=JGIP',
+        permanent: true,
+      },
+      {
+        source: '/distribute',
+        destination: 'https://r.distribute.ai/lrmn',
+        permanent: true,
+      },
+      {
+        source: '/kaisar',
+        destination: 'https://zero.kaisar.io/register?ref=jfBRhT672',
         permanent: true,
       },
     ];

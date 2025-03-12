@@ -1,7 +1,7 @@
 import { NowPlaying } from "../components";
 import Image from "next/image";
 import Banners from "../components/Banner";
-
+import Link from "next/link";
 const name = "L RMN";
 const belowLink = "いつか、私がヒトじゃなくなっても";
 /*const bio = "Blogger | Dreamer | Observer 🗿";*/
@@ -273,7 +273,7 @@ export default function Home() {
 
                         <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                           <a
-                            href="/mybot"
+                            href="/mewwme"
                             target="_blank"
                             rel="noopener noreferrer nofollow"
                             className="w-full transition-all sm:hover:opacity-70"
@@ -317,11 +317,53 @@ export default function Home() {
 
                         <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                           <a
-                            href="/airdrop"
+                            href="/somnia"
                             target="_blank"
                             rel="noopener noreferrer nofollow"
                             className="w-full transition-all sm:hover:opacity-70"
                           >
+                            <div>
+                              <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
+                                <div className="flex items-center justify-center">
+                                  <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
+                                    <span className=""> ⛓️ </span>
+                                  </div>
+                                  <div className="mx-4 flex flex-col">
+                                    <span
+                                      title="Nothing"
+                                      className="text-ellipsis text-[16px] text-zinc-400"
+                                    >
+                                      Somnia Network
+                                    </span>
+                                    <span
+                                      title="The Dream Computer"
+                                      className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]"
+                                    >
+The fastest and most cost-efficient EVM-compatible
+Layer 1 for a fully Onchain World
+                                    </span>
+                                  </div>
+                                </div>
+                                <span className="absolute right-2 text-zinc-600 transition-all">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    aria-hidden="true"
+                                    className="h-4 w-8"
+                                  >
+                                    <path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path>
+                                  </svg>
+                                </span>
+                              </span>
+                            </div>
+                          </a>
+                        </div>
+
+
+                        <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
+                        <Link href="/passiveincome" passHref className="w-full transition-all sm:hover:opacity-70">
+
                             <div>
                               <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
                                 <div className="flex items-center justify-center">
@@ -333,7 +375,7 @@ export default function Home() {
                                       title="Nothing"
                                       className="text-ellipsis text-[16px] text-zinc-400"
                                     >
-                                      Potential Airdrop
+                                      Passive Income
                                     </span>
                                     <span
                                       title=""
@@ -356,7 +398,7 @@ export default function Home() {
                                 </span>
                               </span>
                             </div>
-                          </a>
+                            </Link>
                         </div>
                       </div>
                     </div>
@@ -374,7 +416,7 @@ export default function Home() {
                 <div className="container mx-auto text-center">
                   Made by TRAGIC in BOGOR
                   <p className="text-gray text-s">
-                    © 2023 L RMN. All rights reserved.
+                  © {new Date().getFullYear()} L RMN. All rights reserved.
                   </p>
                 </div>
               </footer>
