@@ -1,7 +1,15 @@
 import { NowPlaying } from "../components";
 import Image from "next/image";
 import Link from "next/link";
-
+import somnia from "../public/assests/logo/somnia.png";
+import gradientnetwork from "../public/assests/logo/gradientnetwork.png";
+import blessnetwork from "../public/assests/logo/blessnetwork.png";
+import grass from "../public/assests/logo/grass.png";
+import nodepay from "../public/assests/logo/nodepay.png";
+import minionlab from "../public/assests/logo/minionlab.webp";
+import dawn from "../public/assests/logo/dawn.png";
+import teneoprotocol from "../public/assests/logo/teneoprotocol.png";
+import agnthub from "../public/assests/logo/agnthub.png";
 const name = "L RMN";
 const belowLink = "Earn passive income effortlessly! Click the links below to start now";
 
@@ -65,7 +73,8 @@ export default function PassiveIncome() {
                         <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
                           <div className="flex items-center justify-center">
                             <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
-                              <span>🌐</span>
+                            <Image src={somnia} alt="Icon" width={16} height={16} />
+
                             </div>
                             <div className="mx-4 flex flex-col">
                               <span className="text-ellipsis text-[16px] text-zinc-400">
@@ -104,7 +113,7 @@ export default function PassiveIncome() {
                         <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
                           <div className="flex items-center justify-center">
                             <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
-                              <span>🌐</span>
+                            <Image src={gradientnetwork} alt="Icon" width={16} height={16} />
                             </div>
                             <div className="mx-4 flex flex-col">
                               <span className="text-ellipsis text-[16px] text-zinc-400">
@@ -142,7 +151,7 @@ export default function PassiveIncome() {
                         <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
                           <div className="flex items-center justify-center">
                             <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
-                              <span>🌐</span>
+                            <Image src={blessnetwork} alt="Icon" width={16} height={16} />
                             </div>
                             <div className="mx-4 flex flex-col">
                               <span className="text-ellipsis text-[16px] text-zinc-400">
@@ -181,7 +190,7 @@ export default function PassiveIncome() {
                         <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
                           <div className="flex items-center justify-center">
                             <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
-                              <span>🌐</span>
+                            <Image src={grass} alt="Icon" width={16} height={16} />
                             </div>
                             <div className="mx-4 flex flex-col">
                               <span className="text-ellipsis text-[16px] text-zinc-400">
@@ -220,7 +229,7 @@ export default function PassiveIncome() {
                         <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
                           <div className="flex items-center justify-center">
                             <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
-                              <span>🌐</span>
+                            <Image src={nodepay} alt="Icon" width={16} height={16} />
                             </div>
                             <div className="mx-4 flex flex-col">
                               <span className="text-ellipsis text-[16px] text-zinc-400">
@@ -258,7 +267,7 @@ export default function PassiveIncome() {
                         <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
                           <div className="flex items-center justify-center">
                             <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
-                              <span>🌐</span>
+                            <Image src={minionlab} alt="Icon" width={16} height={16} />
                             </div>
                             <div className="mx-4 flex flex-col">
                               <span className="text-ellipsis text-[16px] text-zinc-400">
@@ -297,7 +306,7 @@ export default function PassiveIncome() {
                         <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
                           <div className="flex items-center justify-center">
                             <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
-                              <span>🌐</span>
+                            <Image src={dawn} alt="Icon" width={16} height={16} />
                             </div>
                             <div className="mx-4 flex flex-col">
                               <span className="text-ellipsis text-[16px] text-zinc-400">
@@ -335,7 +344,7 @@ export default function PassiveIncome() {
                         <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
                           <div className="flex items-center justify-center">
                             <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
-                              <span>🌐</span>
+                            <Image src={teneoprotocol} alt="Icon" width={16} height={16} />
                             </div>
                             <div className="mx-4 flex flex-col">
                               <span className="text-ellipsis text-[16px] text-zinc-400">
@@ -373,7 +382,7 @@ export default function PassiveIncome() {
                         <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
                           <div className="flex items-center justify-center">
                             <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
-                              <span>🌐</span>
+                            <Image src={agnthub} alt="Icon" width={16} height={16} />
                             </div>
                             <div className="mx-4 flex flex-col">
                               <span className="text-ellipsis text-[16px] text-zinc-400">
