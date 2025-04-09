@@ -13,19 +13,16 @@ import discord from "../public/assests/logo/social/discord.svg";
 import spotify from "../public/assests/logo/social/spotify.svg";
 import tiktok from "../public/assests/logo/social/tiktok.png";
 import youtube from "../public/assests/logo/social/youtube.svg";
-import somnia from "../public/assests/logo/somnia.png";
-import gradientnetwork from "../public/assests/logo/gradientnetwork.png";
-import blessnetwork from "../public/assests/logo/blessnetwork.png";
-import grass from "../public/assests/logo/grass.png";
-import nodepay from "../public/assests/logo/nodepay.png";
-import minionlab from "../public/assests/logo/minionlab.webp";
-import dawn from "../public/assests/logo/dawn.png";
-import teneoprotocol from "../public/assests/logo/teneoprotocol.png";
-import agnthub from "../public/assests/logo/agnthub.png";
-import distributeai from "../public/assests/logo/distributeai.png";
-import kaisar from "../public/assests/logo/kaisar.png";
 
-export default function PassiveIncome() {
+import deezer from "../public/assests/logo/music/deezer.png";
+import youtubemusic from "../public/assests/logo/music/youtubemusic.png";
+import youtubevideo from "../public/assests/logo/music/youtubevideo.png";
+import tidal from "../public/assests/logo/music/tidal.webp";
+import Spotify from "../public/assests/logo/music/spotify.png";
+import soundcloud from "../public/assests/logo/music/soundcloud.png";
+import applemusic from "../public/assests/logo/music/applemusic.png";
+
+export default function MyMusic() {
   return (
     <div>
       <div className="flex flex-col">
@@ -171,7 +168,7 @@ export default function PassiveIncome() {
                     <div className="max-w-s mt-1 w-full space-y-2">
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://quest.somnia.network/referrals/0F6091D2"
+                          href="https://open.spotify.com/artist/3jHW4HKnaYSaEmovirJRKj"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -181,7 +178,7 @@ export default function PassiveIncome() {
                               <div className="flex items-center justify-center">
                                 <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
                                   <Image
-                                    src={somnia}
+                                    src={Spotify}
                                     alt="Icon"
                                     width={16}
                                     height={16}
@@ -189,13 +186,9 @@ export default function PassiveIncome() {
                                 </div>
                                 <div className="mx-4 flex flex-col">
                                   <span className="text-ellipsis text-[16px] text-zinc-400">
-                                    Somnia Network
+                                    Spotfy
                                   </span>
-                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]">
-                                    The fastest and most cost-efficient
-                                    EVM-compatible Layer 1 for a fully Onchain
-                                    World
-                                  </span>
+                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]"></span>
                                 </div>
                               </div>
                               <span className="absolute right-2 text-zinc-600 transition-all">
@@ -216,7 +209,7 @@ export default function PassiveIncome() {
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://app.gradient.network/signup?code=6POEWC"
+                          href="https://www.deezer.com/en/artist/311705281"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -226,7 +219,7 @@ export default function PassiveIncome() {
                               <div className="flex items-center justify-center">
                                 <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
                                   <Image
-                                    src={gradientnetwork}
+                                    src={deezer}
                                     alt="Icon"
                                     width={16}
                                     height={16}
@@ -234,11 +227,9 @@ export default function PassiveIncome() {
                                 </div>
                                 <div className="mx-4 flex flex-col">
                                   <span className="text-ellipsis text-[16px] text-zinc-400">
-                                    Gradient Network
+                                    Deezer
                                   </span>
-                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]">
-                                    Ubiquitous Compute
-                                  </span>
+                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]"></span>
                                 </div>
                               </div>
                               <span className="absolute right-2 text-zinc-600 transition-all">
@@ -259,7 +250,7 @@ export default function PassiveIncome() {
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://bless.network/dashboard?ref=659RND"
+                          href="https://tidal.com/browse/artist/55815590"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -269,7 +260,7 @@ export default function PassiveIncome() {
                               <div className="flex items-center justify-center">
                                 <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
                                   <Image
-                                    src={blessnetwork}
+                                    src={tidal}
                                     alt="Icon"
                                     width={16}
                                     height={16}
@@ -277,11 +268,9 @@ export default function PassiveIncome() {
                                 </div>
                                 <div className="mx-4 flex flex-col">
                                   <span className="text-ellipsis text-[16px] text-zinc-400">
-                                    Bless Network
+                                    Tidal
                                   </span>
-                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]">
-                                    The world&apos;s first shared computer.
-                                  </span>
+                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]"></span>
                                 </div>
                               </div>
                               <span className="absolute right-2 text-zinc-600 transition-all">
@@ -302,7 +291,7 @@ export default function PassiveIncome() {
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://app.getgrass.io/register/?referralCode=mx1VtaZYLloZQ_b"
+                          href="https://music.apple.com/"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -312,7 +301,7 @@ export default function PassiveIncome() {
                               <div className="flex items-center justify-center">
                                 <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
                                   <Image
-                                    src={grass}
+                                    src={applemusic}
                                     alt="Icon"
                                     width={16}
                                     height={16}
@@ -320,11 +309,9 @@ export default function PassiveIncome() {
                                 </div>
                                 <div className="mx-4 flex flex-col">
                                   <span className="text-ellipsis text-[16px] text-zinc-400">
-                                    Grass
+                                    Apple Music
                                   </span>
-                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]">
-                                    Earn a stake in AI
-                                  </span>
+                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]"></span>
                                 </div>
                               </div>
                               <span className="absolute right-2 text-zinc-600 transition-all">
@@ -345,7 +332,7 @@ export default function PassiveIncome() {
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://app.nodepay.ai/register?ref=5yOkfU1ULNMBrvm"
+                          href="https://soundcloud.com/"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -355,7 +342,7 @@ export default function PassiveIncome() {
                               <div className="flex items-center justify-center">
                                 <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
                                   <Image
-                                    src={nodepay}
+                                    src={soundcloud}
                                     alt="Icon"
                                     width={16}
                                     height={16}
@@ -363,11 +350,9 @@ export default function PassiveIncome() {
                                 </div>
                                 <div className="mx-4 flex flex-col">
                                   <span className="text-ellipsis text-[16px] text-zinc-400">
-                                    Nodepay
+                                    Soundcloud
                                   </span>
-                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]">
-                                    Own the Future of AI
-                                  </span>
+                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]"></span>
                                 </div>
                               </div>
                               <span className="absolute right-2 text-zinc-600 transition-all">
@@ -388,7 +373,7 @@ export default function PassiveIncome() {
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://ref.minionlab.io/?referralCode=VJKKXCPU"
+                          href="https://music.youtube.com/channel/UC3yqDQ62iwvmQBrvy4WzFhQ"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -398,7 +383,7 @@ export default function PassiveIncome() {
                               <div className="flex items-center justify-center">
                                 <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
                                   <Image
-                                    src={minionlab}
+                                    src={youtubemusic}
                                     alt="Icon"
                                     width={16}
                                     height={16}
@@ -406,12 +391,9 @@ export default function PassiveIncome() {
                                 </div>
                                 <div className="mx-4 flex flex-col">
                                   <span className="text-ellipsis text-[16px] text-zinc-400">
-                                    Minion Lab
+                                    Youtube Music
                                   </span>
-                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]">
-                                    Adopt your minions now, the first on-chain
-                                    fully autonomous agents
-                                  </span>
+                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]"></span>
                                 </div>
                               </div>
                               <span className="absolute right-2 text-zinc-600 transition-all">
@@ -432,7 +414,7 @@ export default function PassiveIncome() {
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://www.dawninternet.com/"
+                          href="https://www.youtube.com/@LRMN_vp"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -442,7 +424,7 @@ export default function PassiveIncome() {
                               <div className="flex items-center justify-center">
                                 <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
                                   <Image
-                                    src={dawn}
+                                    src={youtubevideo}
                                     alt="Icon"
                                     width={16}
                                     height={16}
@@ -450,185 +432,9 @@ export default function PassiveIncome() {
                                 </div>
                                 <div className="mx-4 flex flex-col">
                                   <span className="text-ellipsis text-[16px] text-zinc-400">
-                                    Dawn Internet
+                                    Youtube
                                   </span>
-                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]">
-                                    Referrals code: 3birr59z
-                                  </span>
-                                </div>
-                              </div>
-                              <span className="absolute right-2 text-zinc-600 transition-all">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  aria-hidden="true"
-                                  className="h-4 w-8"
-                                >
-                                  <path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path>
-                                </svg>
-                              </span>
-                            </span>
-                          </div>
-                        </a>
-                      </div>
-
-                      <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
-                        <a
-                          href="https://dashboard.teneo.pro/auth/signup"
-                          target="_blank"
-                          rel="noopener noreferrer nofollow"
-                          className="w-full transition-all sm:hover:opacity-70"
-                        >
-                          <div>
-                            <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
-                              <div className="flex items-center justify-center">
-                                <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
-                                  <Image
-                                    src={teneoprotocol}
-                                    alt="Icon"
-                                    width={16}
-                                    height={16}
-                                  />
-                                </div>
-                                <div className="mx-4 flex flex-col">
-                                  <span className="text-ellipsis text-[16px] text-zinc-400">
-                                    Teneo Protocol
-                                  </span>
-                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]">
-                                    Referrals code: 3YTta
-                                  </span>
-                                </div>
-                              </div>
-                              <span className="absolute right-2 text-zinc-600 transition-all">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  aria-hidden="true"
-                                  className="h-4 w-8"
-                                >
-                                  <path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path>
-                                </svg>
-                              </span>
-                            </span>
-                          </div>
-                        </a>
-                      </div>
-
-                      <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
-                        <a
-                          href="https://join.agnthub.ai/?ref=JGIP"
-                          target="_blank"
-                          rel="noopener noreferrer nofollow"
-                          className="w-full transition-all sm:hover:opacity-70"
-                        >
-                          <div>
-                            <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
-                              <div className="flex items-center justify-center">
-                                <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
-                                  <Image
-                                    src={agnthub}
-                                    alt="Icon"
-                                    width={16}
-                                    height={16}
-                                  />
-                                </div>
-                                <div className="mx-4 flex flex-col">
-                                  <span className="text-ellipsis text-[16px] text-zinc-400">
-                                    AGNT Hub
-                                  </span>
-                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]">
-                                    AI Agents singularity One App. One Hub.
-                                  </span>
-                                </div>
-                              </div>
-                              <span className="absolute right-2 text-zinc-600 transition-all">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  aria-hidden="true"
-                                  className="h-4 w-8"
-                                >
-                                  <path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path>
-                                </svg>
-                              </span>
-                            </span>
-                          </div>
-                        </a>
-                      </div>
-
-                      <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
-                        <a
-                          href="https://r.distribute.ai/lrmn"
-                          target="_blank"
-                          rel="noopener noreferrer nofollow"
-                          className="w-full transition-all sm:hover:opacity-70"
-                        >
-                          <div>
-                            <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
-                              <div className="flex items-center justify-center">
-                                <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
-                                  <Image
-                                    src={distributeai}
-                                    alt="Icon"
-                                    width={16}
-                                    height={16}
-                                  />
-                                </div>
-                                <div className="mx-4 flex flex-col">
-                                  <span className="text-ellipsis text-[16px] text-zinc-400">
-                                    Distribute AI
-                                  </span>
-                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]">
-                                    The world&apos;s distributed Al
-                                    supercomputer.
-                                  </span>
-                                </div>
-                              </div>
-                              <span className="absolute right-2 text-zinc-600 transition-all">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  aria-hidden="true"
-                                  className="h-4 w-8"
-                                >
-                                  <path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path>
-                                </svg>
-                              </span>
-                            </span>
-                          </div>
-                        </a>
-                      </div>
-
-                      <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
-                        <a
-                          href="https://zero.kaisar.io/register?ref=jfBRhT672"
-                          target="_blank"
-                          rel="noopener noreferrer nofollow"
-                          className="w-full transition-all sm:hover:opacity-70"
-                        >
-                          <div>
-                            <span className="relative mt-2 flex w-full flex-row items-center justify-between rounded bg-zinc-900 text-sm leading-tight">
-                              <div className="flex items-center justify-center">
-                                <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
-                                  <Image
-                                    src={kaisar}
-                                    alt="Icon"
-                                    width={16}
-                                    height={16}
-                                  />
-                                </div>
-                                <div className="mx-4 flex flex-col">
-                                  <span className="text-ellipsis text-[16px] text-zinc-400">
-                                    Zero Kaisar
-                                  </span>
-                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]">
-                                    Transform your compute power into real
-                                    earnings
-                                  </span>
+                                  <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]"></span>
                                 </div>
                               </div>
                               <span className="absolute right-2 text-zinc-600 transition-all">
