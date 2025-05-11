@@ -209,7 +209,7 @@ export default function SomniaNetwork() {
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://www.yourbe.fun/"
+                          href="https://yourbefun.vercel.app/"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -253,7 +253,7 @@ export default function SomniaNetwork() {
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://mint.yourbe.fun/"
+                          href="https://funmint.vercel.app/"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -297,7 +297,7 @@ export default function SomniaNetwork() {
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://medium.com/@lrmn"
+                          href="https://gsomnia-click.vercel.app/"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -307,7 +307,7 @@ export default function SomniaNetwork() {
                               <div className="flex items-center justify-center">
                                 <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
                                   <Image
-                                    src={Medium}
+                                    src={somniaAurora}
                                     alt="Icon"
                                     width={24}
                                     height={24}
@@ -315,11 +315,10 @@ export default function SomniaNetwork() {
                                 </div>
                                 <div className="mx-4 flex flex-col">
                                   <span className="text-ellipsis text-[16px] text-zinc-400">
-                                    Medium
+                                    gSomnia Click
                                   </span>
                                   <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]">
-                                    I love exploring anything related to
-                                    technology.
+                                     is a fun and interactive Web3 game on the Somnia Network Testnet. Click the button, rack up on-chain clicks, and climb the leaderboard!
                                   </span>
                                 </div>
                               </div>
@@ -341,7 +340,7 @@ export default function SomniaNetwork() {
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://x.com/romanromannya"
+                          href="https://medium.com/@lrmn"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -351,7 +350,7 @@ export default function SomniaNetwork() {
                               <div className="flex items-center justify-center">
                                 <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
                                   <Image
-                                    src={Xtwitter}
+                                    src={medium}
                                     alt="Icon"
                                     width={24}
                                     height={24}
@@ -359,10 +358,10 @@ export default function SomniaNetwork() {
                                 </div>
                                 <div className="mx-4 flex flex-col">
                                   <span className="text-ellipsis text-[16px] text-zinc-400">
-                                    Twitter
+                                    Medium
                                   </span>
                                   <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]">
-                                    My personal Twitter.
+                                    I love exploring anything related to technology.
                                   </span>
                                 </div>
                               </div>
