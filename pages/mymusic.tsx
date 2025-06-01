@@ -148,7 +148,7 @@ export default function MyMusic() {
                       />
                     </a>
                     <a
-                      href="https://www.youtube.com/@lrmn_vp"
+                      href="https://www.youtube.com/@lrmn_music"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -414,7 +414,7 @@ export default function MyMusic() {
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://www.youtube.com/@LRMN_vp"
+                          href="https://www.youtube.com/@lrmn_music"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -470,7 +470,7 @@ export default function MyMusic() {
                 <div className="flex items-center justify-center rounded-full bg-primary bg-opacity-90 text-xs font-medium text-banner">
                   <footer>
                     <div className="container mx-auto text-center">
-                      Made by TRAGIC in BOGOR
+                      ✦ born from silence, built with purpose ✦
                       <p className="text-gray text-s">
                         © {new Date().getFullYear()} L RMN. All rights reserved.
                       </p>

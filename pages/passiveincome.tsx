@@ -151,7 +151,7 @@ export default function PassiveIncome() {
                       />
                     </a>
                     <a
-                      href="https://www.youtube.com/@lrmn_vp"
+                      href="https://www.youtube.com/@lrmn_music"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -664,7 +664,7 @@ export default function PassiveIncome() {
                 <div className="flex items-center justify-center rounded-full bg-primary bg-opacity-90 text-xs font-medium text-banner">
                   <footer>
                     <div className="container mx-auto text-center">
-                      Made by TRAGIC in BOGOR
+                      ✦ born from silence, built with purpose ✦
                       <p className="text-gray text-s">
                         © {new Date().getFullYear()} L RMN. All rights reserved.
                       </p>

@@ -73,7 +73,7 @@ export default function Home() {
                 <div className="mt-3">
                   <Banners />
                   <div className="mt-3 flex flex-row flex-wrap items-center justify-center gap-4">
-                  <a
+                    <a
                       href="https://instagram.com/romanroman.nya"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -97,7 +97,11 @@ export default function Home() {
                         height={24}
                       />
                     </a>
-                    <a href="https://www.tiktok.com/@romanroman.nya" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://www.tiktok.com/@romanroman.nya"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Image src={tiktok} alt="TikTok" width={24} height={24} />
                     </a>
                     <a
@@ -112,7 +116,11 @@ export default function Home() {
                         height={24}
                       />
                     </a>
-                    <a href="https://github.com/lrmn7" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://github.com/lrmn7"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Image src={github} alt="GitHub" width={24} height={24} />
                     </a>
                     <a
@@ -140,7 +148,7 @@ export default function Home() {
                       />
                     </a>
                     <a
-                      href="https://www.youtube.com/@lrmn_vp"
+                      href="https://www.youtube.com/@lrmn_music"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -151,7 +159,11 @@ export default function Home() {
                         height={24}
                       />
                     </a>
-                    <a href="https://medium.com/@lrmn" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://medium.com/@lrmn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Image src={medium} alt="Medium" width={24} height={24} />
                     </a>
 
@@ -202,7 +214,7 @@ export default function Home() {
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://vp.lrmn.fun"
+                          href="https://vp.lrmn.link/"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -245,8 +257,8 @@ export default function Home() {
                       </div>
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
-                      <a
-                          href="https://music.is-a.fun/"
+                        <a
+                          href="https://music.lrmn.link/"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -262,7 +274,7 @@ export default function Home() {
                                     title="Nothing"
                                     className="text-ellipsis text-[16px] text-zinc-400"
                                   >
-                                    Listen to My Music
+                                    Music
                                   </span>
                                   <span
                                     title=""
@@ -431,17 +443,17 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="mb-4 flex justify-center">
-          <div className="flex items-center justify-center rounded-full bg-primary bg-opacity-90 text-xs font-medium text-banner">
-            <footer>
-              <div className="container mx-auto text-center">
-                Made by TRAGIC in BOGOR
-                <p className="text-gray text-s">
-                  © {new Date().getFullYear()} L RMN. All rights reserved.
-                </p>
-              </div>
-            </footer>
-          </div>
+      </div>
+      <div className="mb-4 flex justify-center bg-primary">
+        <div className="flex items-center justify-center rounded-full bg-primary bg-opacity-90 text-xs font-medium text-banner">
+          <footer>
+            <div className="container mx-auto text-center">
+              ✦ born from silence, built with purpose ✦
+              <p className="text-gray text-s">
+                {new Date().getFullYear()} L RMN. All rights reserved.
+              </p>
+            </div>
+          </footer>
         </div>
       </div>
     </div>

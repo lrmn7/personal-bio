@@ -145,7 +145,7 @@ export default function SomniaNetwork() {
                       />
                     </a>
                     <a
-                      href="https://www.youtube.com/@lrmn_vp"
+                      href="https://www.youtube.com/@lrmn_music"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -176,8 +176,8 @@ export default function SomniaNetwork() {
                                   <Image
                                     src={somniaAurora}
                                     alt="Icon"
-                                    width={16}
-                                    height={16}
+                                    width={24}
+                                    height={24}
                                   />
                                 </div>
                                 <div className="mx-4 flex flex-col">
@@ -219,10 +219,10 @@ export default function SomniaNetwork() {
                               <div className="flex items-center justify-center">
                                 <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
                                   <Image
-                                    src={somniaDark}
+                                    src={somniaAurora}
                                     alt="Icon"
-                                    width={16}
-                                    height={16}
+                                    width={24}
+                                    height={24}
                                   />
                                 </div>
                                 <div className="mx-4 flex flex-col">
@@ -263,10 +263,10 @@ export default function SomniaNetwork() {
                               <div className="flex items-center justify-center">
                                 <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
                                   <Image
-                                    src={somniaLight}
+                                    src={somniaAurora}
                                     alt="Icon"
-                                    width={16}
-                                    height={16}
+                                    width={24}
+                                    height={24}
                                   />
                                 </div>
                                 <div className="mx-4 flex flex-col">
@@ -297,7 +297,7 @@ export default function SomniaNetwork() {
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://gsomnia-click.vercel.app/"
+                          href="https://gsomnia-clicks.vercel.app/"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -350,7 +350,7 @@ export default function SomniaNetwork() {
                               <div className="flex items-center justify-center">
                                 <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
                                   <Image
-                                    src={somniaLight}
+                                    src={somniaAurora}
                                     alt="Icon"
                                     width={24}
                                     height={24}
@@ -383,7 +383,7 @@ export default function SomniaNetwork() {
 
                       <div className="bg-animate group mb-1 w-full cursor-pointer rounded bg-gradient-to-r from-zinc-900 via-zinc-600 to-zinc-900 text-sm text-zinc-400 shadow transition-all">
                         <a
-                          href="https://medium.com/@lrmn"
+                          href="https://funquiz.vercel.app/"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="w-full transition-all sm:hover:opacity-70"
@@ -393,7 +393,7 @@ export default function SomniaNetwork() {
                               <div className="flex items-center justify-center">
                                 <div className="flex h-16 w-16 items-center justify-center rounded bg-zinc-800 bg-opacity-50">
                                   <Image
-                                    src={medium}
+                                    src={somniaAurora}
                                     alt="Icon"
                                     width={24}
                                     height={24}
@@ -401,10 +401,10 @@ export default function SomniaNetwork() {
                                 </div>
                                 <div className="mx-4 flex flex-col">
                                   <span className="text-ellipsis text-[16px] text-zinc-400">
-                                    Medium
+                                    Fun Quiz
                                   </span>
                                   <span className="xs:w-[220px] mt-1 w-[175px] truncate text-ellipsis whitespace-nowrap text-[14px] text-zinc-700 sm:w-[275px] md:w-[340px] lg:w-[400px]">
-                                    I love exploring anything related to technology.
+                                    Embark On Your Somnia Journey
                                   </span>
                                 </div>
                               </div>
@@ -424,8 +424,6 @@ export default function SomniaNetwork() {
                         </a>
                       </div>
                     </div>
-
-                    {/* Tambahan tombol Home */}
                     <div className="mt-6">
                       <Link
                         href="/"
@@ -441,7 +439,7 @@ export default function SomniaNetwork() {
                 <div className="flex items-center justify-center rounded-full bg-primary bg-opacity-90 text-xs font-medium text-banner">
                   <footer>
                     <div className="container mx-auto text-center">
-                      Made by TRAGIC in BOGOR
+                     ✦ born from silence, built with purpose ✦
                       <p className="text-gray text-s">
                         © {new Date().getFullYear()} L RMN. All rights reserved.
                       </p>
