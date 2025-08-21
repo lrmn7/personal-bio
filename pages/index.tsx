@@ -74,7 +74,7 @@ export default function Home() {
                   <Banners />
                   <div className="mt-3 flex flex-row flex-wrap items-center justify-center gap-4">
                     <a
-                      href="https://instagram.com/romanroman.nya"
+                      href="https://instagram.com/eleremen7"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -98,7 +98,7 @@ export default function Home() {
                       />
                     </a>
                     <a
-                      href="https://www.tiktok.com/@romanroman.nya"
+                      href="https://www.tiktok.com/@eleremen"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
