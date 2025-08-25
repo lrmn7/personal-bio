@@ -43,4 +43,4 @@ To use this template, read and follow the steps given in the [Using Guide](https
 
 ## 💌 Support Server
 
-[![DiscordBanner](https://invidget.switchblade.xyz/6EXgrmtkPX)](https://discord.gg/6EXgrmtkPX)
+[![DiscordBanner](https://invidget.switchblade.xyz/9HkKkkA9Jt)](https://discord.com/invite/9HkKkkA9Jt)

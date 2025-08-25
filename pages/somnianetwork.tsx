@@ -133,7 +133,7 @@ export default function SomniaNetwork() {
                       />
                     </a>
                     <a
-                      href="https://discord.gg/6EXgrmtkPX"
+                      href="https://discord.com/invite/9HkKkkA9Jt"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
