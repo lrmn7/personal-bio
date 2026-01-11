@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Banners from "../components/Banner";
 const name = "L RMN";
-const Bio1 = "❝Signed off to live a different story❞";
+const Bio1 = "❝Be the reason someone smile today❞";
 const Bio2 = "Blogger | Dreamer | Observer 🗿";
 import instagram from "../public/assests/logo/social/instagram.svg";
 import github from "../public/assests/logo/social/github.svg";
@@ -133,7 +133,7 @@ export default function SomniaNetwork() {
                       />
                     </a>
                     <a
-                      href="https://discord.com/invite/9HkKkkA9Jt"
+                      href="https://discord.gg/5kaTrzK6Bh"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

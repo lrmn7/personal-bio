@@ -136,7 +136,7 @@ export default function MyMusic() {
                       />
                     </a>
                     <a
-                      href="https://discord.com/invite/9HkKkkA9Jt"
+                      href="https://discord.gg/5kaTrzK6Bh"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
