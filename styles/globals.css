@@ -39,7 +39,7 @@ body::-webkit-scrollbar {
 .bg-banner {
   background-size: cover;
   background-position: center;
-  background-image: url(/lrmnbanner.gif);
+  background-image: url(/lrmn-banner.png);
 }
 
 #snackbar {

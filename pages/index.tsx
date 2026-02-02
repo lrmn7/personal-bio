@@ -86,7 +86,7 @@ export default function Home() {
                       />
                     </a>
                     <a
-                      href="https://x.com/romanromannya"
+                      href="https://x.com/eleremen7"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -105,7 +105,7 @@ export default function Home() {
                       <Image src={tiktok} alt="TikTok" width={24} height={24} />
                     </a>
                     <a
-                      href="https://id.pinterest.com/romanromannya"
+                      href="https://id.pinterest.com/eleremen7"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
