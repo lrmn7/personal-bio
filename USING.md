@@ -76,8 +76,6 @@ To configure this, you need to add `env` vars to thr `.env.local` file in the fo
 SPOTIFY_CLIENT_ID=
 SPOTIFY_CLIENT_SECRET=
 SPOTIFY_REFRESH_TOKEN=
-NEXT_PUBLIC_GOOGLE_ANALYTICS=
-NEXT_PUBLIC_UMAMI_WEBSITE_ID=
 ```
 
 Read this [article](https://leerob.io/blog/spotify-api-nextjs) to get our own keys in this format.
