@@ -139,7 +139,7 @@ export default function PassiveIncome() {
                       />
                     </a>
                     <a
-                      href="https://discord.com/invite/9HkKkkA9Jt"
+                      href="https://discord.gg/rBRzcjExDY"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
