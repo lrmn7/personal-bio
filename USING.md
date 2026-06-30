@@ -1,7 +1,7 @@
 # How to use this ?
 
 - Star the repository to show your support
-- Also, if you need any help, feel free connect me on [Discord](https://discord.gg/2pkvB82NaS)
+- Also, if you need any help, feel free connect me on [Discord](https://discord.gg/nF4UGu8Nfn)
 
 ### Using the Template
 
@@ -84,4 +84,4 @@ And you're good to go!
 
 ## 💌 Support Server
 
-[![DiscordBanner](https://invidget.switchblade.xyz/2pkvB82NaS)](https://discord.gg/2pkvB82NaS)
+[![DiscordBanner](https://invidget.switchblade.xyz/nF4UGu8Nfn)](https://discord.gg/nF4UGu8Nfn)
